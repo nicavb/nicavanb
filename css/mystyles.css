@@ -11,5 +11,39 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #mainNav{
-    background-color: rgba(240, 248, 255, 0.395);
+    background-color: #f6e1c55d;
+}
+.bg-faded{
+    background-color: #f6e1c5;
+}
+.btn-primary {
+    --bs-btn-color: #f6e1c5;
+    --bs-btn-bg: #456d45;
+    --bs-btn-border-color: #456d45;
+    --bs-btn-hover-color: #f6e1c5;
+    --bs-btn-hover-bg: #456d45;
+    --bs-btn-hover-border-color: #456d45;
+    --bs-btn-focus-shadow-rgb: 196, 142, 73;
+    --bs-btn-active-color: #f6e1c5;
+    --bs-btn-active-bg: #456d45;
+    --bs-btn-active-border-color: #456d45;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f6e1c5;
+    --bs-btn-disabled-bg: #456d45;
+    --bs-btn-disabled-border-color: #456d45;
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #629862 !important;
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #304c30;
+}
+#mainNav .navbar-brand {
+    color: #456d45;
+}
+.footer{
+    color: #f6e1c5;
 }
