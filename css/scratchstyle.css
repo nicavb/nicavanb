@@ -1,0 +1,79 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 58, 9);
+    background-color: rgb(208, 235, 248);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:400%;
+
+}
+p{
+    font-weight: bold;
+}
+/* .rizz{
+    display: block;
+    border: 2px solid pink;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-family: Freestyle Script, papyrus;
+}
+.rizz:hover{
+    font-size: 500%;
+    color: pink;
+    border: 5px cornsilk dashed;} */
+
+a:visited{
+    color: rgb(73, 123, 232);
+}
+img{
+ /* border: rgb(250, 249, 244), 5px, solid; */
+ padding: 5px;
+ margin: 5px;
+
+}
+ul> li:hover{
+    text-decoration: underline;
+    background-color: rgba(122, 151, 215, 0.489);
+}
+a:hover{
+    text-decoration: overline;
+}
+a{
+    color:blueviolet;
+}
+.common{
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(0, 0, 255, 0.228);
+    font-size: 50%;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.content{
+    top: 50px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+}
+.nav{
+    z-index: 1;
+    position: relative;
+    float: right;
+}
